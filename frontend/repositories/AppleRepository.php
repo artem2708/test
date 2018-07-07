@@ -1,6 +1,6 @@
 <?php
 
-namespace app\repositories;
+namespace frontend\repositories;
 
 use common\entities\Apple;
 use common\helpers\RandomProperties;
@@ -9,7 +9,7 @@ use yii\data\ActiveDataProvider;
 
 /**
  * Class AppleRepository
- * @package app\repositories
+ * @package frontend\repositories
  */
 class AppleRepository extends ActiveRepository
 {

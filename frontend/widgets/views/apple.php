@@ -7,7 +7,7 @@ use yii\helpers\Url;
 /* @var $this yii\web\View */
 /* @var $item array */
 /* @var $model \common\entities\Apple */
-/* @var $eatForm \app\models\EatAppleForm */
+/* @var $eatForm \frontend\models\EatAppleForm */
 ?>
 <div class="col-lg-3" style="text-align:center; min-height:200px; padding:5px; border:<?= $model->color ?> solid 1px ">
     <span><?= $model->percent . '%' ?> <?= Html::a('Down', Url::to(['apple/down', 'id' => $model->id])) ?></span>

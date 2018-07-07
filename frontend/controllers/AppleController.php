@@ -1,9 +1,9 @@
 <?php
 
-namespace app\controllers;
+namespace frontend\controllers;
 
-use app\models\EatAppleForm;
-use app\repositories\AppleRepository;
+use frontend\models\EatAppleForm;
+use frontend\repositories\AppleRepository;
 use Yii;
 use yii\web\Response;
 use yii\widgets\ActiveForm;

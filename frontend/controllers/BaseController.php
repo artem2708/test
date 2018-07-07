@@ -1,5 +1,5 @@
 <?php
-namespace app\controllers;
+namespace frontend\controllers;
 
 use yii\web\Controller;
 use yii\filters\VerbFilter;

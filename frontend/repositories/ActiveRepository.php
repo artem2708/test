@@ -1,12 +1,12 @@
 <?php
-namespace app\repositories;
+namespace frontend\repositories;
 
 use yii\base\InvalidValueException;
 use yii\db\ActiveRecordInterface;
 
 /**
  * Class ActiveRepository
- * @package app\repositories
+ * @package frontend\repositories
  */
 abstract class ActiveRepository
 {

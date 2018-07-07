@@ -1,7 +1,7 @@
 <?php
-namespace app\widgets;
+namespace frontend\widgets;
 
-use app\models\EatAppleForm;
+use frontend\models\EatAppleForm;
 use common\entities\Apple;
 
 class AppleWidget extends \yii\bootstrap\Widget

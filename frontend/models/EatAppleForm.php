@@ -1,6 +1,6 @@
 <?php
 
-namespace app\models;
+namespace frontend\models;
 
 use common\entities\Apple;
 use yii\base\Model;
