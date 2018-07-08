@@ -28,6 +28,7 @@ class UsersController extends Controller
         $data['group'] = ($isAdmin) ? 'admin' : 'user';
         $data['email'] = $email;
         $data['username'] = $name;
+        $data['auth_key'] = Yii::$app->getSecurity()->generateRandomString();
 
         $user = new User();
         $user->setAttributes($data);
